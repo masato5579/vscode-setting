@@ -1,0 +1,128 @@
+{
+  "vscode-neovim.neovimExecutablePaths.linux": "/opt/homebrew/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "files.trimTrailingWhitespace": true,
+  "workbench.editor.enablePreview": false,
+  "files.autoSave": "afterDelay",
+  "explorer.compactFolders": false,
+  "git.suggestSmartCommit": false,
+  "explorer.openEditors.visible": 0,
+  // vscode-vim
+  "editor.tabCompletion": "on",
+  "keyboard.dispatch": "keyCode",
+  "html.format.enable": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.wordWrap": "on",
+  "editor.renderControlCharacters": false,
+  "terminal.integrated.copyOnSelection": true,
+  "workbench.commandPalette.history": 15,
+  "workbench.commandPalette.preserveInput": true,
+  "workbench.statusBar.visible": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.revealIfOpen": true,
+  "window.newWindowDimensions": "inherit",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 17,
+  //----------------------------------------------------------
+  // emmetの設定
+  //----------------------------------------------------------
+  //twigとvueでも有効にします
+  "emmet.includeLanguages": {
+    "twig": "html",
+    "vue-html": "html"
+  },
+  "editor.scrollBeyondLastLine": true,
+  "editor.mouseWheelScrollSensitivity": 10,
+  "editor.tabSize": 2,
+  "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_　・、／。「」【】『』（）：！？てにをはがのともへでや",
+  "editor.folding": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.fontSize": 15,
+  // "files.autoGuessEncoding": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false, // 入力した行を自動でフォーマット
+  "emmet.variables": {
+    // Emmet で展開される HTML の言語を変更
+    "lang": "ja"
+  },
+  "terminal.external.osxExec": "Warp.app",
+  "debug.console.fontFamily": "Ricty Diminished Discord",
+  "debug.console.fontSize": 14,
+  "markdown.preview.fontFamily": "Ricty Diminished Discord",
+  "terminal.integrated.fontWeight": "bold",
+  "vim.easymotionMarkerFontWeight": "bold",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggest.showIcons": false,
+  "workbench.startupEditor": "none",
+  "editor.accessibilitySupport": "off",
+  "editor.find.globalFindClipboard": true,
+  "search.globalFindClipboard": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.closeWhenEmpty": true,
+  "files.exclude": {
+    "/.git": true,
+    "/.DS_Store": true,
+    "/node_modules": true,
+    "/node_modules/": true,
+    "**.png": true,
+    "**.jpg": true,
+    "**.gif": true
+  },
+  "search.exclude": {
+    "/node_modules": true,
+    "**.png": true,
+    "**.jpg": true,
+    "**.gif": true
+  },
+  "files.watcherExclude": {
+    "/node_modules/": true,
+    "**.png": true,
+    "**.jpg": true,
+    "**.gif": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "gitlens.codeLens.scopes": ["containers"],
+  "gitlens.statusBar.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "GitHub Dark",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "git.mergeEditor": true,
+  "window.zoomLevel": -2,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "intelephense.environment.phpVersion": "8.1.29",
+  "vscode-neovim.compositeKeys": {
+    "jj": {
+      "command": "vscode-neovim.escape"
+    }
+  },
+  "editor.lineNumbers": "relative",
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "typescript.tsserver.watchOptions": {
+        "watchFile": "useFsEvents",
+        "watchDirectory": "useFsEvents"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+}
